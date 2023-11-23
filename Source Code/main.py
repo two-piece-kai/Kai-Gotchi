@@ -87,32 +87,32 @@ class App:
 
     def graphics_get(self):
         # Emotion: Happy
-        self.graphics_dictionary["Happy1"] = PhotoImage(file="graphics/happy_1.png")
-        self.graphics_dictionary["Happy2"] = PhotoImage(file="graphics/happy_2.png")
+        self.graphics_dictionary["Happy1"] = PhotoImage(file="Graphics/happy_1.png")
+        self.graphics_dictionary["Happy2"] = PhotoImage(file="Graphics/happy_2.png")
 
         # Emotion: Neutral
-        self.graphics_dictionary["Neutral1"] = PhotoImage(file="graphics/neutral_1.png")
-        self.graphics_dictionary["Neutral2"] = PhotoImage(file="graphics/neutral_2.png")
+        self.graphics_dictionary["Neutral1"] = PhotoImage(file="Graphics/neutral_1.png")
+        self.graphics_dictionary["Neutral2"] = PhotoImage(file="Graphics/neutral_2.png")
 
         # Emotion: Mad
-        self.graphics_dictionary["Mad1"] = PhotoImage(file="graphics/mad_1.png")
-        self.graphics_dictionary["Mad2"] = PhotoImage(file="graphics/mad_2.png")
+        self.graphics_dictionary["Mad1"] = PhotoImage(file="Graphics/mad_1.png")
+        self.graphics_dictionary["Mad2"] = PhotoImage(file="Graphics/mad_2.png")
 
         # Hunger Bar; I messed up my original graphics size
-        self.graphics_dictionary["Hunger0"] = ImageTk.PhotoImage(Image.open("graphics/hunger_0.png"))
-        self.graphics_dictionary["Hunger1"] = ImageTk.PhotoImage(Image.open("graphics/hunger_1.png"))
-        self.graphics_dictionary["Hunger2"] = ImageTk.PhotoImage(Image.open("graphics/hunger_2.png"))
-        self.graphics_dictionary["Hunger3"] = ImageTk.PhotoImage(Image.open("graphics/hunger_3.png"))
-        self.graphics_dictionary["Hunger4"] = ImageTk.PhotoImage(Image.open("graphics/hunger_4.png"))
-        self.graphics_dictionary["Hunger5"] = ImageTk.PhotoImage(Image.open("graphics/hunger_5.png"))
+        self.graphics_dictionary["Hunger0"] = ImageTk.PhotoImage(Image.open("Graphics/hunger_0.png"))
+        self.graphics_dictionary["Hunger1"] = ImageTk.PhotoImage(Image.open("Graphics/hunger_1.png"))
+        self.graphics_dictionary["Hunger2"] = ImageTk.PhotoImage(Image.open("Graphics/hunger_2.png"))
+        self.graphics_dictionary["Hunger3"] = ImageTk.PhotoImage(Image.open("Graphics/hunger_3.png"))
+        self.graphics_dictionary["Hunger4"] = ImageTk.PhotoImage(Image.open("Graphics/hunger_4.png"))
+        self.graphics_dictionary["Hunger5"] = ImageTk.PhotoImage(Image.open("Graphics/hunger_5.png"))
 
         # Cleanliness Bar; same graphics issue lol
-        self.graphics_dictionary["Clean0"] = ImageTk.PhotoImage(Image.open("graphics/clean_0.png"))
-        self.graphics_dictionary["Clean1"] = ImageTk.PhotoImage(Image.open("graphics/clean_1.png"))
-        self.graphics_dictionary["Clean2"] = ImageTk.PhotoImage(Image.open("graphics/clean_2.png"))
-        self.graphics_dictionary["Clean3"] = ImageTk.PhotoImage(Image.open("graphics/clean_3.png"))
-        self.graphics_dictionary["Clean4"] = ImageTk.PhotoImage(Image.open("graphics/clean_4.png"))
-        self.graphics_dictionary["Clean5"] = ImageTk.PhotoImage(Image.open("graphics/clean_5.png"))
+        self.graphics_dictionary["Clean0"] = ImageTk.PhotoImage(Image.open("Graphics/clean_0.png"))
+        self.graphics_dictionary["Clean1"] = ImageTk.PhotoImage(Image.open("Graphics/clean_1.png"))
+        self.graphics_dictionary["Clean2"] = ImageTk.PhotoImage(Image.open("Graphics/clean_2.png"))
+        self.graphics_dictionary["Clean3"] = ImageTk.PhotoImage(Image.open("Graphics/clean_3.png"))
+        self.graphics_dictionary["Clean4"] = ImageTk.PhotoImage(Image.open("Graphics/clean_4.png"))
+        self.graphics_dictionary["Clean5"] = ImageTk.PhotoImage(Image.open("Graphics/clean_5.png"))
     def animate(self):
         if self.hunger + self.clean >= 150:
             frame1 = self.graphics_dictionary["Mad1"]

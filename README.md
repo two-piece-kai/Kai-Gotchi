@@ -36,6 +36,7 @@ that he is clean and stress-free.
 
 ## Credit
 
+Executable by pyinstaller.
 All art created by me. The code is entirely from scratch as well, which if read through, will be alarmingly obvious.
 
 ## License

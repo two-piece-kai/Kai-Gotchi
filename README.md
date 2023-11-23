@@ -32,6 +32,7 @@ one may click on the "Hunger" and "Clean" bars respectively to reduce the frog's
 and laziness, a full "Hunger" bar indicates the frog is full and happy, while an empty "Clean" bar indicates
 that he is clean and stress-free.
 
+![alt text](https://github.com/two-piece-kai/Kai-Gotchi/blob/main/Screenshot 2023-11-23 043115.png?raw=true)
 ![Angry-Stage Frog](Screenshot 2023-11-23 043115.png)
 
 ## Credit
